@@ -1,206 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shri Sai Education | Computer Institute Ujjain</title>
+
   <style>
-  body{
-    margin:0;
-    font-family: Arial;
-    background:#f8fafc;
-  }
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f8fafc;
+      color:#0f172a;
+    }
 
-  section{
-    padding:60px 20px;
-  }
+    header{
+      background:#0f172a;
+      color:white;
+      padding:15px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+    }
 
-  .container{
-    max-width:1100px;
-    margin:auto;
-  }
+    header nav a{
+      color:white;
+      margin:0 10px;
+      text-decoration:none;
+      font-size:14px;
+    }
 
-  .card{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-  }
+    .hero{
+      background:linear-gradient(135deg,#0f172a,#1e3a8a);
+      color:white;
+      text-align:center;
+      padding:80px 20px;
+    }
 
-  .btn{
-    background:#22c55e;
-    color:white;
-    padding:12px 20px;
-    text-decoration:none;
-    border-radius:8px;
-  }
+    .hero h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 20px;
+      background:#22c55e;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+    }
+
+    section{
+      padding:60px 20px;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:30px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.08);
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .about{
+      background:#f1f5f9;
+      text-align:center;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:15px 18px;
+      border-radius:50px;
+      text-decoration:none;
+      font-size:14px;
+    }
   </style>
-  <style>
-  body {
-    font-family: Arial;
-    margin: 20px;
-    background-color: #f5f5f5;
-  }
-
-  h1 {
-    color: #2c3e50;
-  }
-
-  h2 {
-    color: #34495e;
-    margin-top: 20px;
-  }
-
-  ul {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-  }
-
-  a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #27ae60;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  a:hover {
-    background: #219150;
-  }
-  </style>
-<meta name="google-site-verification" content="yeQli591SEPvk6zTR55VwFYvXtxmx8ZQrJou_dh5pHg" /> 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shri Sai Education</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-body <h1>Best Computer Institute in Ujjain – Shri Sai Education</h1>
-
-<p>
-Learn DCA, PGDCA, Tally GST, Typing & Basic Computer Courses with practical training.
-</p>
-
-<a href="https://wa.me/917879139548" style="background:green;color:white;padding:10px;text-decoration:none;">
-Enroll Now on WhatsApp
-</a>
-<h2>Our Computer Courses</h2>
-
-<ul>
-  <li><b>DCA (Diploma in Computer Applications)</b> – Basic to advanced computer skills</li>
-
-  <li><b>PGDCA (Post Graduate Diploma in Computer Applications)</b> – Advanced IT and software training</li>
-
-  <li><b>Tally + GST Course</b> – Accounting, billing and GST return filing</li>
-
-  <li><b>Basic Computer Course</b> – MS Word, Excel, PowerPoint, Internet</li>
-
-  <li><b>Typing Classes</b> – Hindi & English typing speed improvement</li>
-</ul>
-<h2>Why Choose Shri Sai Education?</h2>
-
-<ul>
-  <li>✔ Practical Computer Training (Lab Based)</li>
-  <li>✔ Affordable Fees Structure</li>
-  <li>✔ Job-Oriented Courses (DCA, PGDCA, Tally)</li>
-  <li>✔ Beginner Friendly Teaching</li>
-  <li>✔ Personal Attention to Every Student</li>
-</ul>
-<h2>Contact Us</h2>
-
-<p><b>Shri Sai Education</b><br>
-Ujjain, Madhya Pradesh</p>
-
-<p>Phone: 917879139548</p>
-
-<a href="https://wa.me/917879139548" 
-style="background:green;color:white;padding:10px;text-decoration:none;">
-📲 Chat on WhatsApp
-</a>
-
-  
-  {background:#f4f6fb;color:#333}
-header{background:#111827;color:#fff;padding:15px 30px;display:flex;justify-content:space-between;align-items:center}
-header h1{font-size:22px}
-nav a{color:#fff;margin-left:20px;text-decoration:none;font-size:14px}
-.hero{height:90vh;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1581091870622-3f0c0b8b9b1f');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:20px}
-.hero h2{font-size:42px;margin-bottom:15px}
-.hero p{font-size:18px;margin-bottom:20px}
-.btn{background:#0d6efd;color:#fff;padding:12px 25px;border:none;border-radius:25px;text-decoration:none;font-size:14px}
-.container{padding:60px 20px;max-width:1100px;margin:auto}
-.section-title{text-align:center;margin-bottom:40px;font-size:30px;color:#111827}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
-.card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.08);transition:0.3s}
-.card:hover{transform:translateY(-5px)}
-.card h3{margin-bottom:10px;color:#0d6efd}
-.why div{background:#0d6efd;color:#fff;padding:20px;border-radius:10px;text-align:center}
-.contact{background:#111827;color:#fff;padding:40px;border-radius:15px;text-align:center}
-footer{background:#000;color:#fff;text-align:center;padding:15px;margin-top:40px}
-.whatsapp{position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:15px;border-radius:50%;font-size:20px;text-decoration:none}
-</style>
 </head>
+
 <body>
 
 <header>
-<h1>Shri Sai Education</h1>
-<nav>
-<a href="#">Home</a>
-<a href="#courses">Courses</a>
-<a href="#contact">Contact</a>
-</nav>
+  <h2>Shri Sai Education</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section class="hero">
-<div>
-<h2>Upgrade Your Skills Today</h2>
-<p>DCA | PGDCA | Tally | Computer Courses</p>
-<a href="#contact" class="btn">Apply Now</a>
+<!-- HERO -->
+<div class="hero">
+  <h1>Learn Skills. Get Job Ready.</h1>
+  <p>Best Computer Training Institute in Ujjain</p>
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">Enroll Now</a>
 </div>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="container">
+    <h2>Our Courses</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>DCA (1 Year Diploma)</h3>
+        <p>Complete Diploma in Computer Application with practical training, MS Office, Internet & basics.</p>
+      </div>
+
+      <div class="card">
+        <h3>PGDCA (1 Year Diploma)</h3>
+        <p>Post Graduate Diploma in Computer Applications with advanced computer knowledge & projects.</p>
+      </div>
+
+      <div class="card">
+        <h3>ADCA (6 Months)</h3>
+        <p>Advanced Diploma in Computer Application covering practical office skills and job readiness.</p>
+      </div>
+
+      <div class="card">
+        <h3>Basic Computer (6 Months)</h3>
+        <p>Fundamentals of computer, typing, MS Office, internet usage and basic digital skills.</p>
+      </div>
+
+      <div class="card">
+        <h3>Advance Excel</h3>
+        <p>Professional Excel training including formulas, charts, data analysis and MIS reporting.</p>
+      </div>
+
+      <div class="card">
+        <h3>Tally Prime</h3>
+        <p>Accounting software training with GST, billing and business finance management.</p>
+      </div>
+
+      <div class="card">
+        <h3>Typing (Hindi & English)</h3>
+        <p>Speed typing training for competitive exams and job preparation.</p>
+      </div>
+
+    </div>
+  </div>
 </section>
 
-<section id="courses" class="container">
-<h2 class="section-title">Our Courses</h2>
-<div class="grid">
-<div class="card">
-<h3>Computer Courses</h3>
-<p>DCA, PGDCA, Basic Computer</p>
-</div>
-<div class="card">
-<h3>Office Training</h3>
-<p>MS Word, Excel, PowerPoint</p>
-</div>
-<div class="card">
-<h3>Accounting</h3>
-<p>Tally with GST</p>
-</div>
-</div>
+<!-- WHY CHOOSE US -->
+<section>
+  <div class="container">
+    <h2>Why Choose Us</h2>
+
+    <div class="grid">
+      <div class="card">✔ Practical Training</div>
+      <div class="card">✔ Job Oriented Courses</div>
+      <div class="card">✔ Affordable Fees</div>
+      <div class="card">✔ Experienced Faculty</div>
+    </div>
+  </div>
 </section>
 
-<section class="container">
-<h2 class="section-title">Why Choose Us</h2>
-<div class="grid why">
-<div>Experienced Faculty</div>
-<div>Practical Training</div>
-<div>Affordable Fees</div>
-<div>Job Oriented Courses</div>
-</div>
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      Shri Sai Education is a professional computer training institute in Ujjain.
+      We provide job-oriented training in DCA, PGDCA, Tally and Typing with practical skills
+      to make students career-ready.
+    </p>
+  </div>
 </section>
 
-<section id="contact" class="container">
-<div class="contact">
-<h2>Contact Us</h2>
-<p>📞 7879139548, 8821000734, 9584111186</p>
-<p>📍 B-220, Second Floor, Divine Valley,<br>Dewas Road, Near Lotus Showroom,<br>Ujjain, Madhya Pradesh - 456010</p>
-<br>
-<iframe src="https://www.google.com/maps?q=Divine+Valley+Dewas+Road+Ujjain&output=embed" width="100%" height="250" style="border:0;border-radius:10px;"></iframe>
-</div>
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container" style="text-align:center;">
+    <h2>Contact Us</h2>
+    <p>📍 Ujjain, Madhya Pradesh</p>
+    <p>📞 +91 XXXXXXXXXX</p>
+
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp Now</a>
+  </div>
 </section>
 
-<a href="https://wa.me/917879139548" class="whatsapp">💬</a>
-
+<!-- FOOTER -->
 <footer>
-<p>© 2026 Shri Sai Education</p>
+  © 2026 Shri Sai Education | All Rights Reserved
 </footer>
 
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">
+  💬 Chat
+</a>
+
 </body>
-</html>
+      </html>
